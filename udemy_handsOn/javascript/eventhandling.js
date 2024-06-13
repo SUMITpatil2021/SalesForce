@@ -4,4 +4,4 @@ function myFun(){
 
 //Using QuerySelector 
 let btn=document.querySelector("button")
-btn.addEventListener("click",myFun)
+btn.addEventListener("click",myFun)         
