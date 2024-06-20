@@ -9,11 +9,20 @@
             <div> Hello my name is {name} and I'm {title}</div>
         </div>
         </lightning-card>
-
+<br>
         <lightning-card title="@Track Property ">
             <div class="slds-m-around_medium">
             <lightning-input type="text" label="Enter your City" onkeyup={changeCity}></lightning-input>
             <div> My city  is {address.city} </div>
+        </div>
+        </lightning-card>
+<br>
+        <lightning-card title="Getter methods in LWC  ">
+            <div class="slds-m-around_medium">
+            <!-- <h1>first user is {users[0]}</h1> //not allowed in LWC
+            <h2>Multiplication of {num1} and {num2} is {num1*num2}</h2> // not allowed in LWC  --> 
+            <h1>First User is {firstUser}</h1> <br>
+            <h1>Multiplication of {num1} and {num2} is {multiply}</h1>
         </div>
         </lightning-card>
 
