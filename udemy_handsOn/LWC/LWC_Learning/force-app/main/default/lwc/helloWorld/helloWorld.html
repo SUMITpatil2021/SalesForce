@@ -1,4 +1,13 @@
 <template>
-    <h1>Hello World</h1>
+    <h1>Hello {Fullname}</h1>
     <h2>Welcome to Salesforce LWC</h2>
+
+
+        <lightning-card title="Two Way Data Binding ">
+            <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter your role" onkeyup={chnageHandler}></lightning-input>
+            <div> Hello my name is {name} and I'm {title}</div>
+        </div>
+        </lightning-card>
+
 </template>
