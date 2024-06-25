@@ -1,0 +1,9 @@
+Salesforce LWC Commands 
+
+1. Create New LWC Component 
+
+   cd G:\SalesForce\udemy_handsOn\LWC\LWC_Learning\force-app\main\default
+   mkdir -p lwc
+   sfdx force:lightning:component:create --type lwc -n looping -d lwc
+
+2 
