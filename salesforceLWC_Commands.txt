@@ -6,4 +6,7 @@ Salesforce LWC Commands
    mkdir -p lwc
    sfdx force:lightning:component:create --type lwc -n looping -d lwc
 
+      sfdx force:lightning:component:create --type lwc -n quizApp -d lwc
+
+
 2 
