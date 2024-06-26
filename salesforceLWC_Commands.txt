@@ -8,5 +8,8 @@ Salesforce LWC Commands
 
       sfdx force:lightning:component:create --type lwc -n quizApp -d lwc
 
+            sfdx force:lightning:component:create --type lwc -n bikeCard -d lwc
+
+
 
 2 
